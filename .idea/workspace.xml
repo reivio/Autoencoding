@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="10239f38-9813-4bc3-b934-45d95a922f8d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bopqc0b46Yl5CqJcQy2ktwhsez" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.sampling_circles">
+    <configuration name="circle_generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AutoEncoding" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/circle_generator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="make_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AutoEncoding" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/make_dataset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sampling_circles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AutoEncoding" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/visualizations" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/visualizations/sampling_circles.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="vae" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AutoEncoding" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/vae.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.sampling_circles" />
+        <item itemvalue="Python.circle_generator" />
+        <item itemvalue="Python.vae" />
+        <item itemvalue="Python.make_dataset" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10239f38-9813-4bc3-b934-45d95a922f8d" name="Default Changelist" comment="" />
+      <created>1589308492255</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589308492255</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1259" height="423" key="GridCell.Tab.0.bottom" timestamp="1589472983051">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1259" height="423" key="GridCell.Tab.0.bottom/0.0.3440.1440@0.0.3440.1440" timestamp="1589472983051" />
+    <state width="2539" height="423" key="GridCell.Tab.0.bottom/0.23.3440.1347@0.23.3440.1347" timestamp="1589394926058" />
+    <state width="1259" height="423" key="GridCell.Tab.0.center" timestamp="1589472983049">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1259" height="423" key="GridCell.Tab.0.center/0.0.3440.1440@0.0.3440.1440" timestamp="1589472983049" />
+    <state width="2539" height="423" key="GridCell.Tab.0.center/0.23.3440.1347@0.23.3440.1347" timestamp="1589394926057" />
+    <state width="1259" height="423" key="GridCell.Tab.0.left" timestamp="1589472983048">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1259" height="423" key="GridCell.Tab.0.left/0.0.3440.1440@0.0.3440.1440" timestamp="1589472983048" />
+    <state width="2539" height="423" key="GridCell.Tab.0.left/0.23.3440.1347@0.23.3440.1347" timestamp="1589394926056" />
+    <state width="1259" height="423" key="GridCell.Tab.0.right" timestamp="1589472983050">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1259" height="423" key="GridCell.Tab.0.right/0.0.3440.1440@0.0.3440.1440" timestamp="1589472983050" />
+    <state width="2539" height="423" key="GridCell.Tab.0.right/0.23.3440.1347@0.23.3440.1347" timestamp="1589394926057" />
+    <state width="2539" height="473" key="GridCell.Tab.1.bottom" timestamp="1589472983031">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="2539" height="473" key="GridCell.Tab.1.bottom/0.0.3440.1440@0.0.3440.1440" timestamp="1589472983031" />
+    <state width="2539" height="473" key="GridCell.Tab.1.bottom/0.23.3440.1347@0.23.3440.1347" timestamp="1589383617688" />
+    <state width="2539" height="473" key="GridCell.Tab.1.center" timestamp="1589472983029">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="2539" height="473" key="GridCell.Tab.1.center/0.0.3440.1440@0.0.3440.1440" timestamp="1589472983029" />
+    <state width="2539" height="473" key="GridCell.Tab.1.center/0.23.3440.1347@0.23.3440.1347" timestamp="1589383617686" />
+    <state width="2539" height="473" key="GridCell.Tab.1.left" timestamp="1589472983028">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="2539" height="473" key="GridCell.Tab.1.left/0.0.3440.1440@0.0.3440.1440" timestamp="1589472983028" />
+    <state width="2539" height="473" key="GridCell.Tab.1.left/0.23.3440.1347@0.23.3440.1347" timestamp="1589383617685" />
+    <state width="2539" height="473" key="GridCell.Tab.1.right" timestamp="1589472983030">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="2539" height="473" key="GridCell.Tab.1.right/0.0.3440.1440@0.0.3440.1440" timestamp="1589472983030" />
+    <state width="2539" height="473" key="GridCell.Tab.1.right/0.23.3440.1347@0.23.3440.1347" timestamp="1589383617687" />
+    <state x="1229" y="359" key="SettingsEditor" timestamp="1589382965600">
+      <screen x="0" y="23" width="3440" height="1347" />
+    </state>
+    <state x="1229" y="359" key="SettingsEditor/0.0.3440.1440@0.0.3440.1440" timestamp="1589315485567" />
+    <state x="1229" y="359" key="SettingsEditor/0.23.3440.1347@0.23.3440.1347" timestamp="1589382965600" />
+    <state x="973" y="529" key="com.intellij.ide.util.TipDialog" timestamp="1589383002222">
+      <screen x="0" y="23" width="3440" height="1347" />
+    </state>
+    <state x="973" y="529" key="com.intellij.ide.util.TipDialog/0.23.3440.1347@0.23.3440.1347" timestamp="1589383002222" />
+    <state x="425" y="342" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589313133729">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="425" y="342" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.3440.1440@0.0.3440.1440" timestamp="1589313133729" />
+  </component>
+</project>

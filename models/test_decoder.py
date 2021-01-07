@@ -2,11 +2,15 @@ import tensorflow as tf
 import numpy as np
 from matplotlib import pyplot as plt
 
-from vae import CVAE
+# from vae import CVAE
+from info_vae import MMDVAE
 from data.circle_generator import gen_circles
 
-model = CVAE(3)
-model.load_weights('../saved_models/vae/vae_weights')
+# model = CVAE(3)
+model = MMDVAE(50, 3)
+model.built = True
+# model.load_weights('../saved_models/vae/vae_weights')
+model.load_weights('./saved_models/info_vae/model_weights')
 
 fig = plt.figure(figsize=(10, 10))
 
@@ -14,7 +18,7 @@ fig = plt.figure(figsize=(10, 10))
 #for index, circle in gen_circles(cols*rows, size):
 index = 0
 
-size = 28
+size = 50
 cols = 4 
 rows = 3
 for i in range(rows*cols):

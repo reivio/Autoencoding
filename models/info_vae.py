@@ -56,20 +56,6 @@ def log_normal_pdf(sample, mean, logvar, raxis=1):
         -.5 * ((sample - mean) ** 2. * tf.exp(-logvar) + logvar + log2pi),
         axis=raxis)
 
-
-# @tf.function
-# def compute_loss(model, x):
-#     mean, logvar = model.encode(x)
-#     z = model.reparameterize(mean, logvar)
-#     x_logit = model.decode(z)
-
-#     cross_ent = tf.nn.sigmoid_cross_entropy_with_logits(
-#         logits=x_logit, labels=x)
-#     logpx_z = -tf.reduce_sum(cross_ent, axis=[1, 2, 3])
-#     logpz = log_normal_pdf(z, 0., 0.)
-#     logqz_x = log_normal_pdf(z, mean, logvar)
-#     return -tf.reduce_mean(logpx_z + logpz - logqz_x)
-
 @tf.function
 def compute_kernel(x, y):
     x_size = tf.shape(x)[0]
@@ -90,18 +76,10 @@ def compute_mmd(x, y, sigmasqr=1.0):
 def compute_loss(model, x):
     z = model.encode(x)
     x_hat = model.decode(z)
-    # print(f'\nX: {x.shape}\n{x}\n')
-    # print(f'\nX hat: {x_hat.shape}\n{x_hat}\n')
-    # z_dim = model.latent_dim
-    #true_samples = tf.random.normal(tf.stack([200, z_dim]))
     true_samples = tf.random.normal(z.shape.as_list())
-    # print(f'\nZ: {z.shape}\n{z}\n')
-    # print(f'\nTrue samples: {true_samples.shape}\n{true_samples}\n')
 
     true_samples = tf.squeeze(true_samples)
     z = tf.squeeze(z)
-    # print(f'\nZ: {z.shape}\n{z}\n')
-    # print(f'\nTrue samples: {true_samples.shape}\n{true_samples}\n')
 
     loss_mmd = compute_mmd(true_samples, z)
     loss_nll = tf.reduce_mean(tf.square(x_hat - x))
@@ -109,10 +87,10 @@ def compute_loss(model, x):
 
 
 @tf.function
-def compute_apply_gradients(model, x, optimizer, return_losses=False):
+def compute_apply_gradients(model, x, optimizer, beta=1, return_losses=False):
     with tf.GradientTape() as tape:
         loss_nll, loss_mmd = compute_loss(model, x)
-        loss = loss_nll + loss_mmd
+        loss = loss_nll + beta * loss_mmd
     gradients = tape.gradient(loss, model.trainable_variables)
     optimizer.apply_gradients(zip(gradients, model.trainable_variables))
     if return_losses:
